@@ -60,7 +60,7 @@ pausar.onclick = function()
 
 iniciar.onclick = function()
 {
-    marcaTempo(minutos, segundos)
+    marcaTempo(horas, minutos, segundos)
 }
 
 zerar.onclick = function()
