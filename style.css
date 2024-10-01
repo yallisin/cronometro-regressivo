@@ -1,0 +1,55 @@
+section
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+div
+{ 
+    align-content: center;
+}
+
+.horario
+{
+display: grid;
+grid-auto-flow: column;
+
+}
+p
+{
+    padding: 10px;
+    margin: 0;
+    font-size: 50px;
+}
+
+.buttons
+{
+    margin-top: 20px;
+    float: right;
+    
+
+}
+
+button
+{
+    background-color: white;
+    color: rgb(30, 183, 221);
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(72, 10, 243);
+}
+
+button:hover
+{
+    background-color: rgb(52, 19, 236);
+    color: white;
+}
+
+[contenteditable] {
+    outline: 0px solid transparent;
+  }
